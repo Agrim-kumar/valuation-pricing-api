@@ -1,0 +1,29 @@
+{
+  "name": "valuation-pricing-api",
+  "version": "1.0.0",
+  "description": "Machine valuation pricing engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agrim-kumar/valuation-pricing-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Agrim-kumar/valuation-pricing-api/issues"
+  },
+  "homepage": "https://github.com/Agrim-kumar/valuation-pricing-api#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pg": "^8.16.3"
+  }
+}
